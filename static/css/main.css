@@ -270,7 +270,7 @@ a, a:visited, a:link {
   bottom: 0;
   height: auto;
   font-size: 20px;
-  background: #0110;
+  background: #0000;
   display: block;
   position: absolute;
   margin: 2px;
@@ -307,7 +307,7 @@ a, a:visited, a:link {
 
 .bgButton {
   margin: 10px;
-  border: 2px solid #000;
+  border: 2px solid #0000;
   border-radius: 5px;
   display: inline-block;
   width: 360px;
@@ -406,7 +406,7 @@ a, a:visited, a:link {
   font-size: 18px;
   white-space: nowrap;
   border-radius: 5px;
-  border: 2px solid #000;
+  border: 2px solid #0000;
   cursor: pointer;
 }
 
