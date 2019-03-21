@@ -122,7 +122,7 @@
 			$('#bgnow').toggleClass('stale', (now - last > threshold));
 
 			// Generate and insert the clock.
-			var timeDivisor = (window.serverSettings.settings.timeFormat) ? window.serverSettings.settings.timeFormat : 12;
+			/*var timeDivisor = (window.serverSettings.settings.timeFormat) ? window.serverSettings.settings.timeFormat : 12;
 			var today = new Date(),
 			h = today.getHours() % timeDivisor;
 			if (timeDivisor == 12) {
@@ -133,7 +133,7 @@
 			}
 			m = today.getMinutes();
 			if (m < 10) m = "0" + m;
-			$('#clock').text(h + ":" + m);
+			$('#clock').text(h + ":" + m);*/
 		}
 
 		function init ( ) {
